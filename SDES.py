@@ -1,5 +1,3 @@
-__author__ = 'ßaron'
-
 FIXED_IP = [2, 6, 3, 1, 4, 8, 5, 7]
 FIXED_EP = [4, 1, 2, 3, 2, 3, 4, 1]
 FIXED_IP_INVERSE = [4, 1, 3, 5, 7, 2, 8, 6]
@@ -101,10 +99,11 @@ for i in range(1024):
     
     if count >= len(student_Id):
         break
-print(KEY)
 
 for i in range (len(plain_Text)):
     plain_Text[i]=plain_Text[i]-48
 
+print('Key is ' + KEY)
+print('Plain text : ')
 print(plain_Text)
             
